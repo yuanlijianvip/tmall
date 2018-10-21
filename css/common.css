@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*banner开始*/
+.banner{
+    height: 80px;
+    background: #ff2f7c;
+}
+.banner2 img{
+    display: block;
+    margin: 0 auto;
+}
+/*banner结束*/
+/*header开始*/
+.wrapper{
+    width: 1230px;
+    height: 32px;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+.header-bg{
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    background:#f2f2f2;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.30);
+}
+.header-left{
+    height: 40px;
+    line-height: 40px;
+}
+.header-left a,.header-left span{
+    color:#999;
+}
+.header-left a:hover{
+    color: red;
+}
+.header-left-a1{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.header-left-a2{
+    display: inline-block;
+    padding: 0px 10px;
+}
+/*header结束*/
