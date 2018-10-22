@@ -34,6 +34,8 @@ a{
 .header-left{
     height: 40px;
     line-height: 40px;
+    font-size: 12px;
+    float: left;
 }
 .header-left a,.header-left span{
     color:#999;
@@ -42,12 +44,30 @@ a{
     color: red;
 }
 .header-left-a1{
-    display: inline-block;
     padding-left: 20px;
     padding-right: 10px;
 }
 .header-left-a2{
-    display: inline-block;
     padding: 0px 10px;
+}
+.header-right{
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+}
+.header-right a{
+    color:#999;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.header-right li{
+    float: left;
+}
+.header-right li a:hover{
+    color: #ff0036;
+}
+.header-right li i{
+    font-size: 16px;
+    color: #ff0036;
 }
 /*header结束*/
