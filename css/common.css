@@ -95,5 +95,28 @@ a{
     transform:rotate(180deg); 
     transform-origin: 50% 25%;
 }
+.sub-list{
+    position: absolute;
+    left:0px;
+    top:40px;
+    border:1px solid #eee;
+    background: #fff;
+    border-top:none;
+    padding: 8px 5px;
+    width: 120px;
+    line-height: 30px;
+    display: none;
+}
+.sub-list a{
+    color: #999;
+}
+.sub-list a:hover{
+    color: #ff0036;
+    text-decoration: underline;
+}
+.header-right .list-menu:hover .sub-list{
+    display: block;
+}
+
 
 /*header结束*/
