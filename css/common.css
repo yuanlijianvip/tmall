@@ -65,9 +65,35 @@ a{
 }
 .header-right li a:hover{
     color: #ff0036;
+   
 }
 .header-right li i{
     font-size: 16px;
     color: #ff0036;
 }
+.list-menu:hover{
+    background: #fff;
+    text-decoration: underline;
+}
+.header-right li>a{
+    display: block;
+    padding: 0px 15px 0px 20px;
+
+}
+.list-menu{
+    position:relative;
+}
+.arrow{
+    position: absolute;
+    border:3px solid transparent;
+    border-top-color: #999;
+    top:18px;
+    right:6px;
+    transition: transform 0.2s ease;
+}
+.header-right .list-menu:hover .arrow{
+    transform:rotate(180deg); 
+    transform-origin: 50% 25%;
+}
+
 /*header结束*/
