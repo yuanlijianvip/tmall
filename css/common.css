@@ -21,9 +21,7 @@ a{
 /*header开始*/
 .wrapper{
     width: 1230px;
-    height: 32px;
     margin: 0 auto;
-    background: #f2f2f2;
 }
 .header-bg{
     height: 40px;
@@ -60,8 +58,9 @@ a{
     padding-left: 10px;
     padding-right: 15px;
 }
-.header-right li{
+.header-right>li{
     float: left;
+    position: relative;
 }
 .header-right li a:hover{
     color: #ff0036;
@@ -117,6 +116,32 @@ a{
 .header-right .list-menu:hover .sub-list{
     display: block;
 }
+.sub-qr{
+    position: absolute;
+    left:-30px;
+    top:33px;
+    box-shadow:0 0 2px 2px rgba(0,0,0,0.15);
+    display: none;
+}
+.sub-qr::after{
+    content:'';
+    width:0;
+    height: 0;
+    border:4px solid transparent;
+    border-bottom-color:#fff;
+    position: absolute;
+    left:50%;
+    top:-8px;
+    margin-left:-4px;
+}
+.list-tel:hover .sub-qr{
+    display: block;
+}
 
+
+
+.qw{
+    margin-top: 5px;
+}
 
 /*header结束*/
