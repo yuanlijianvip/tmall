@@ -8,6 +8,15 @@ ul{
 a{
     text-decoration: none;
 }
+body{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    -webkit-font-smoothing: antialiased;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+}
 /*banner开始*/
 .banner{
     height: 80px;
@@ -140,8 +149,5 @@ a{
 
 
 
-.qw{
-    margin-top: 5px;
-}
 
 /*header结束*/
