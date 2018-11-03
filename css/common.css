@@ -151,3 +151,63 @@ body{
 
 
 /*header结束*/
+.list-menu2{
+    position: relative;
+}
+.list-menu-wzdh{
+    width: 1198px;
+    height: 110px;
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    left: auto;
+    top: 33px;
+    border-width: 0 1px 1px;
+    padding: 25px 0;
+    /* line-height: 1.4; */
+    /* border: solid #eee; */
+    z-index: 93110;
+    display: none;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.site-hot{
+    width: 455px;
+  height: 110px;
+    float: left;
+    border-right: 1px solid #eee;
+}
+.site-hot li a{
+    color: #666;
+    height: 15px !important;
+}
+.site-hot li{
+    float: left;
+    padding-left: 30px;
+}
+.site-market{
+    width: 455px;
+    height: 110px;
+    float: left;
+    border-right: 1px solid #eee;
+}
+.site-market li{
+    float: left;
+    padding-left: 30px;
+}
+.site-help{
+    height: 110px;
+    float: left;
+}
+.site-help li{
+    float: left;
+}
+/* .site-cont li{
+    overflow: hidden;
+    padding-left: 30px;
+    float: left;
+    
+} */
+.site-list{
+    float: left;
+}
